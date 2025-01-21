@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation - Cafe Delight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  <header>
+    <h1>Table Reservation</h1>
+  </header>
+  <section>
+    <form id="reservationForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <input type="submit" value="Reserve Table">
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
